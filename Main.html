@@ -12,25 +12,31 @@
 <body>
 <div class=main_page>
   <div class="header">
+    <section id="target-main">
     <img class="logo" src="svg/logo.svg" alt="logo">
+    </section>
     <p class="site_name">LuxWay</p>
     <img class="point" src="svg/point.svg" alt="point">
+    <a href="https://maps.app.goo.gl/zNdm4ZuR9DuRxNKt5" target="_blank">
     <p class="head_location">м. Ужгород <br> вул. Університетська 12</p>
+    </a>
     <img class="phone" src="svg/Phone%20Rounded.svg" alt="phone">
     <p class="head_phone">+380123456789 <br> +380987654321</p>
 </div>
   <div class="header_menu">
-    <p class="menu_main">Головна</p>
-    <p class="menu_company">Про компанію</p>
-    <p class="menu_service">Послуги</p>
-      <button class="tg_form">
-        <img class="tg_img" src="svg/tg.svg" alt="tg">
-        <span class="tg_form_text">Залишити заявку</span>
-      </button>
+    <a href="#target-main" class="menu_main">Головна</a>
+    <a href="#target-service" class="menu_service">Послуги</a>
+    <a href="#target-info" class="menu_company">Про компанію</a>
+    <button class="tg_form" onclick="location.href='#target-application'">
+      <img class="tg_img" src="svg/tg.svg" alt="tg">
+      <span class="tg_form_text">Залишити заявку</span>
+    </button>
   </div>
   <img class="main_img" src="img/main_page_photo.png" alt="main">
   <div class="service_headline">
-    <p class="service">Послуги</p>
+    <section id="target-service">
+      <p class="service">Послуги</p>
+    </section>
     <hr class="service_line">
   </div>
   <div class="service_back">
@@ -45,8 +51,8 @@
     </div>
     <div class="service_seller">
       <img class="key" src="svg/Key.svg" alt="key">
-      <p class="seller_headline">Послуги покупцеві</p>
-      <p class="seller_underline">Велика база даних <br> вторинного житла з <br> проведеним оглядом і <br> аналізом документів</p>
+      <p class="seller_headline">Послуги продавцю</p>
+      <p class="seller_underline">При умові продажу <br> квартири з нами послуги з <br> купівлі квартири на 20% <br> дешевше!</p>
       <div class="seller_button">
         <p class="seller_button_text">Детальніше</p>
         <img class="arrow2" src="svg/Arrow%20-%20Right.svg" alt="arrow">
@@ -55,7 +61,9 @@
   </div>
   <div class="info">
     <div class="info_text">
+      <section id="target-info">
       <p class="info_headline">Чому ми?</p>
+      </section>
       <hr class="info_line">
       <p class="info_underline">Ми надаємо широкий спектр послуг з <br> купівлі-продажу нерухомості в Ужгороді.</p>
       <p class="info_underline2">Ріелторська Компанія «LuxWay» є одним з лідерів ринку <br>
@@ -136,6 +144,89 @@
       </div>
     </div>
   </div>
+  <section id="target-application">
+  <div class="application">
+    <p class="application_headline">Залишити заявку</p>
+    <hr>
+    <div class="application_block">
+      <div class="application_info">
+        <p class="application_info_headline">Хочете швидко і вигідно <br> продати або купити нерухомість <br> і не знаєте з чого почати?</p>
+        <p class="application_info_underline">Залиште заявку на нашому <br> сайті, решту зробимо ми!</p>
+      </div>
+      <div class="application_form1">
+        <label>
+          <select class="dropdown_vacation">
+            <option value="option1">Я хочу купити</option>
+            <option value="option2">Я хочу продати</option>
+          </select>
+        </label>
+        <div class="application_form2">
+          <label>
+            <select class="dropdown_type">
+              <option value="option1">Квартиру</option>
+              <option value="option2">Будинок</option>
+            </select>
+          </label>
+          <label>
+            <select class="dropdown_location">
+              <option value="option1">В Ужгороді</option>
+              <option value="option2">В Києві</option>
+            </select>
+          </label>
+        </div>
+        <div class="application_form3">
+          <label>
+            <input type="text" class="name_input" placeholder="Ваше ім'я:">
+          </label>
+          <label>
+            <input type="text" class="number_input" placeholder="Телефон:">
+          </label>
+        </div>
+        <div class="application_form4">
+          <label>
+            <textarea class="text_input" placeholder="Текст повідомлення:"></textarea>
+          </label>
+        </div>
+        <button class="send_form">Відправити заявку</button>
+      </div>
+    </div>
+  </div>
+  </section>
+  <footer class="footer">
+   <div class="footer_l">
+    <div class="footer_logo">
+      <img class="footer_logo_img" src="svg/Group%2024.svg" alt="logo">
+      <p class="footer_logo_name">LuxWay</p>
+    </div>
+    <div class="footer_desk">
+      <p class="footer_desk_text">
+        Ріелторська Компанія «Золоті Ворота» є одним з лідерів <br>
+        ринку нерухомості і вже на протязі 10-ти років входить <br>
+        в Топ-10 кращих ріелторських компаній України. Наша <br>
+        Компанія була заснована в листопаді 2008 року і на <br>
+        сьогоднішній день є одним з лідерів ринку нерухомості.
+      </p>
+    </div>
+     <div class="social">
+       <a href="https://telegram.org" target="_blank">
+         <img class="footer_tg" src="svg/Telegram.svg" alt="tg">
+       </a>
+       <a href="https://twitter.com" target="_blank">
+         <img class="footer_tw" src="svg/Twitter.svg" alt="tw">
+       </a>
+       <a href="https://instagram.com" target="_blank">
+         <img class="footer_ins" src="svg/Instagram.svg" alt="ins">
+       </a>
+     </div>
+   </div>
+    <div class="footer_r">
+      <p class="footer_contacts">Контакти</p>
+      <a href="https://maps.app.goo.gl/zNdm4ZuR9DuRxNKt5" target="_blank">
+      <p class="footer_location">м. Ужгород <br> вул. Університетська 12</p>
+      </a>
+      <p class="footer_number">+380123456789 <br> +380987654321</p>
+    </div>
+  </footer>
 </div>
 </body>
 </html>

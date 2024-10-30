@@ -2,10 +2,11 @@
   margin: 0;
   padding: 0;
   font-family: 'Geologica', sans-serif;
+  justify-content: center;
 }
 .main_page {
   width: auto;
-  height: 4208px;
+  height: auto;
   background: #ffffff;
   position: relative;
   justify-content: center;
@@ -21,7 +22,6 @@
 .logo {
   width: 110px;
   height: 110px;
-  padding-left: 160px;
   padding-top: 7px;
 }
 .site_name {
@@ -69,7 +69,6 @@
   font-weight: 600;
   font-size: 20px;
   color: #ffffff;
-  padding-left: 160px;
   padding-top: 14px;
 }
 .menu_company {
@@ -130,13 +129,13 @@
 }
 .service_back {
   display: flex;
+  justify-content: center;
 }
 .service_customer {
   width: 380px;
   height: 400px;
   background: #ffffff;
   outline: 2px solid black;
-  margin-left: 550px;
   margin-top: 53px;
 }
 .cart {
@@ -234,14 +233,13 @@
   font-weight: 600;
   font-size: 40px;
   color: #000000;
-  padding-left: 320px;
 }
 .info_text hr{
   border: none;
   height: 2px;
   background-color: black;
   margin-top: 5px;
-  margin-left: 320px;
+
   width: 673px;
 }
 .info_underline {
@@ -249,19 +247,18 @@
   font-size: 32px;
   color: #000000;
   padding-top: 12px;
-  padding-left: 320px;
+
 }
 .info_underline2 {
   font-weight: 400;
   font-size: 20px;
   color: #000000;
   padding-top: 25px;
-  padding-left: 320px;
 }
 .tick_first {
   display: flex;
   padding-top: 35px;
-  padding-left: 320px;
+  justify-content: left;
 }
 .tick1 {
   width: 34px;
@@ -273,6 +270,7 @@
   color: #000000;
   padding-top: 5px;
   padding-left: 25px;
+  justify-content: center;
 }
 .tick2 {
   width: 34px;
@@ -289,7 +287,7 @@
 .tick_second {
   display: flex;
   padding-top: 35px;
-  padding-left: 320px;
+  justify-content: left;
 }
 .tick3 {
   width: 34px;
@@ -402,6 +400,7 @@
 }
 .realtor {
   padding-top: 224px;
+  justify-content: center;
 }
 .realtor_headline {
   font-weight: 500;
@@ -413,7 +412,8 @@
   height: 2px;
   background-color: black;
   margin-top: 5px;
-  margin-left: 792px;
+  margin-left: auto;
+  margin-right: auto;
   width: 320px;
 }
 .realtor_block {
@@ -428,7 +428,7 @@
   width: 250px;
   height: 250px;
   border-radius: 100%;
-  margin-left: 309px;
+
 }
 .realtor1_img {
   width: 200px;
@@ -440,14 +440,12 @@
   font-size: 32px;
   color: #000000;
   padding-top: 25px;
-  padding-left: 310px;
 }
 .realtor1 hr {
   border: none;
   height: 2px;
   background-color: black;
   margin-top: 12px;
-  margin-left: 309px;
   width: 250px;
 }
 .realtor1_quote {
@@ -455,7 +453,6 @@
   font-size: 16px;
   color: #000000;
   padding-top: 25px;
-  padding-left: 310px;
 }
 .realtor2 {
 
@@ -567,4 +564,199 @@
   color: #000000;
   padding-top: 25px;
   padding-left: 100px;
+}
+.application {
+  background: #303030;
+  width: 100%;
+  height: 525px;
+  margin-top: 192px;
+}
+.application_headline {
+  font-weight: 500;
+  font-size: 40px;
+  color: #ffffff;
+  padding-top: 29px;
+  text-align: center;
+}
+.application hr {
+  border: none;
+  height: 2px;
+  background-color: white;
+  margin-top: 5px;
+  width: 1320px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.application_block {
+  padding-top: 36px;
+  display: flex;
+}
+.application_info_headline {
+  text-align: left;
+  font-weight: 400;
+  font-size: 32px;
+  color: #ffffff;
+
+}
+.application_info_underline {
+  text-align: left;
+  font-weight: 400;
+  font-size: 32px;
+  color: #ffffff;
+  padding-top: 36px;
+}
+.dropdown_vacation {
+  width: 660px;
+  height: 30px;
+  padding-left: 32px;
+  font-size: 16px;
+  font-weight: 400;
+  background-color: white;
+  margin-left: 130px;
+}
+.dropdown_type {
+  width: 320px;
+  height: 30px;
+  padding-left: 32px;
+  font-size: 16px;
+  font-weight: 400;
+  background-color: white;
+  margin-left: 130px;
+}
+.dropdown_location {
+  width: 320px;
+  height: 30px;
+  padding-left: 32px;
+  font-size: 16px;
+  font-weight: 400;
+  background-color: white;
+  margin-left: 16px;
+}
+.application_form2 {
+  margin-top: 10px;
+}
+.application_form3 {
+  margin-top: 10px;
+}
+.name_input {
+  width: 285px;
+  height: 30px;
+  padding-left: 32px;
+  font-size: 16px;
+  font-weight: 400;
+  background-color: white;
+  margin-left: 130px;
+}
+.number_input {
+  width: 285px;
+  height: 30px;
+  padding-left: 32px;
+  font-size: 16px;
+  font-weight: 400;
+  background-color: white;
+  margin-left: 16px;
+}
+.text_input {
+  width: 660px;
+  height: 120px;
+  padding: 10px 32px 10px 32px; /* Відступи: верх, правий, низ, лівий */
+  font-size: 16px;
+  font-weight: 400;
+  background-color: white;
+  margin-left: 130px;
+  margin-top: 10px;
+  resize: none; /* Вимикає зміну розміру поля */
+  box-sizing: border-box; /* Враховує відступи в розмірах */
+}
+.send_form {
+  width: 660px;
+  height: 60px;
+  font-size: 24px;
+  font-weight: 500;
+  margin-left: 130px;
+  margin-top: 50px;
+}
+.footer {
+  background: #303030;
+  width: 100%;
+  height: 390px;
+  margin-top: 105px;
+  display: flex;
+}
+.footer_logo {
+  margin-top: 48px;
+  display: flex;
+  justify-content: left;
+}
+.footer_logo_img {
+  width: 110px;
+  height: 110px;
+}
+.footer_logo_name {
+  font-weight: bold;
+  font-size: 40px;
+  color: #ffffff;
+  padding-top: 30px;
+  padding-left: 26px;
+}
+.footer_desk {
+  margin-top: 20px;
+}
+.footer_desk_text {
+  font-weight: 300;
+  font-size: 20px;
+  color: #ffffff;
+  text-align: left;
+}
+.social {
+  margin-right: 360px;
+  margin-top: 20px;
+  justify-content: left;
+
+}
+.footer_tg {
+  margin-right: 46px;
+}
+.footer_tw {
+  margin-right: 46px;
+}
+.footer_r {
+  text-align: left;
+  margin-left: 510px;
+  margin-top: 94px;
+}
+.footer_contacts {
+  color: #ffffff;
+  font-size: 24px;
+  font-weight: bold;
+}
+.footer_location {
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: 500;
+  margin-top: 52px;
+}
+.footer_number {
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: 500;
+  margin-top: 10px;
+}
+.social a {
+  text-decoration: none;
+  color: inherit;
+  outline: none;
+}
+.footer a {
+  text-decoration: none;
+  color: inherit;
+  outline: none;
+}
+.header a {
+  text-decoration: none;
+  color: inherit;
+  outline: none;
+}
+.header_menu a {
+  text-decoration: none;
 }
